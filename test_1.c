@@ -16,7 +16,7 @@ int main()
 	//int *parr = arr;         //parr 是一个整数指针
 	//printf("%d\n", parr[5]);
 	double* d[3];
-	double* (*pd) = &d;
+	double* (*pd)[3] = &d;
 	return 0;
 }
 
